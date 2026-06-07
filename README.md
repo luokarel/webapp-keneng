@@ -24,6 +24,7 @@ AI后端：Dify 工作流 / OpenAI API / SSE 流式输出
 ```bash
 npm install
 npm run dev
+```
 
 ## 项目截图
 
