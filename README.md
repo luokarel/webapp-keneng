@@ -24,7 +24,9 @@ npm install
 npm run dev
 
 ## 项目截图
-（放截图）
+
+<img width="1197" height="488" alt="image" src="https://github.com/user-attachments/assets/60609a52-ff83-4ad9-b469-798927f78f86" />
+
 
 Config more in `config/index.ts` file:   
 ```js
