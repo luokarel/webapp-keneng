@@ -1,20 +1,30 @@
-# Conversation Web App Template
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI智能对话应用 - webapp-keneng
 
-## Config App
-Create a file named `.env.local` in the current directory and copy the contents from `.env.example`. Setting the following content:
-```
-# APP ID: This is the unique identifier for your app. You can find it in the app's detail page URL. 
-# For example, in the URL `https://cloud.dify.ai/app/xxx/workflow`, the value `xxx` is your APP ID.
-NEXT_PUBLIC_APP_ID=
+## 项目简介
+基于 Dify 工作流 + Next.js 构建的 AI 对话应用，实现流式输出、多轮对话、Markdown渲染。
 
-# APP API Key: This is the key used to authenticate your app's API requests. 
-# You can generate it on the app's "API Access" page by clicking the "API Key" button in the top-right corner.
-NEXT_PUBLIC_APP_KEY=
+## 我的角色
+- 前端架构（Next.js + React + TypeScript）
+- Dify 工作流设计与 API 集成
+- AI 交互体验优化（加载状态、错误处理、流式展示）
 
-# APP URL: This is the API's base URL. If you're using the Dify cloud service, set it to: https://api.dify.ai/v1.
-NEXT_PUBLIC_API_URL=
-```
+## 技术栈
+前端：Next.js 14 / React / TypeScript / Tailwind CSS
+AI后端：Dify 工作流 / OpenAI API / SSE 流式输出
+部署：Docker / Vercel
+
+## 核心功能
+1. AI多轮对话（Dify工作流编排）
+2. SSE流式输出（打字机效果）
+3. Markdown渲染（代码高亮、表格）
+4. 响应式设计（移动端适配）
+
+## 运行方式
+npm install
+npm run dev
+
+## 项目截图
+（放截图）
 
 Config more in `config/index.ts` file:   
 ```js
