@@ -20,10 +20,15 @@ AI后端：Dify 工作流 / OpenAI API / SSE 流式输出
 4. 响应式设计（移动端适配）
 
 ## 运行方式
+
+```bash
 npm install
 npm run dev
 
 ## 项目截图
+
+<img width="756" height="1680" alt="首页" src="https://github.com/user-attachments/assets/0c69f4fa-96fc-44bc-901a-3215fc796fec" />
+
 
 <img width="1197" height="488" alt="image" src="https://github.com/user-attachments/assets/60609a52-ff83-4ad9-b469-798927f78f86" />
 
