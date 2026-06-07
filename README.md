@@ -27,22 +27,12 @@ npm run dev
 
 <img width="1197" height="488" alt="image" src="https://github.com/user-attachments/assets/60609a52-ff83-4ad9-b469-798927f78f86" />
 
+<img width="1862" height="733" alt="image" src="https://github.com/user-attachments/assets/4b952870-3584-475a-b9e4-2162b51ab0fb" />
 
-Config more in `config/index.ts` file:   
-```js
-export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
-  description: '',
-  copyright: '',
-  privacy_policy: '',
-  default_language: 'zh-Hans'
-}
 
-export const isShowPrompt = true
-export const promptTemplate = ''
-```
 
-## Getting Started
+
+## 开始
 First, install dependencies:
 ```bash
 npm install
@@ -63,7 +53,7 @@ pnpm dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Using Docker
+## Docker
 
 ```
 docker build . -t <DOCKER_HUB_REPO>/webapp-conversation:latest
@@ -73,20 +63,3 @@ docker run -p 3000:3000 <DOCKER_HUB_REPO>/webapp-conversation:latest
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-> ⚠️ If you are using [Vercel Hobby](https://vercel.com/pricing), your message will be truncated due to the limitation of vercel.
-
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
