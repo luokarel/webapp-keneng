@@ -1,7 +1,7 @@
 # AI智能对话应用 - webapp-keneng
 
 ## 项目简介
-基于 Dify 工作流 + Next.js 构建的 AI 对话应用，实现流式输出、多轮对话、Markdown渲染。
+数字人工具集前端应用，集成多种 AI 工作流 Agent。基于 Dify 工作流 + Next.js 构建的 AI 对话应用，实现流式输出、多轮对话、Markdown渲染。
 
 ## 我的角色
 - 前端架构（Next.js + React + TypeScript）
@@ -12,6 +12,14 @@
 前端：Next.js 14 / React / TypeScript / Tailwind CSS
 AI后端：Dify 工作流 / OpenAI API / SSE 流式输出
 部署：Docker / Vercel
+
+## 功能特性
+
+- **数字人视频**：分身短视频生成
+- **声音克隆**：个人专属声音定制
+- **形象克隆**：个人专属数字人形象
+- **AI 智能助手**：多轮对话，支持 SSE 流式输出、Markdown 渲染（代码高亮、表格）
+- **响应式设计**：移动端优先适配
 
 ## 核心功能
 1. AI多轮对话（Dify工作流编排）
